@@ -1,59 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<link rel="icon" href="image/icon.jpg">
 	<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
-	<script type = "text/javascript" src = "js/sidebar.js"></script>
-	<script type = "text/javascript" src = "js/content-change.js"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+	<script type="text/javascript" src="js/content-change.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Yangruirui Zhou</title>
 </head>
+
 <body>
 	<!--sidebar-->
 	<div id="mySidenav" class="sidenav">
-	  <button class="button" id="side1" style="color: #111111;" onclick="hide();show(1);color(1)">Home</button>
-	  <button class="button" id="side2" onclick="hide();show(2);color(2)">News</button>
-	  <button class="button" id="side3" onclick="hide();show(3);color(3)">Awards</button>
-	  <button class="button" id="side4" onclick="hide();show(4);color(4)">Publication</button>
-	  <button class="button" id="side5" onclick="hide();show(5);color(5)">Other Works</button>
-	  <!-- <button class="button" id="side6" onclick="hide();show(6);color(6)">Internship</button> -->
+		<button class="button" id="side1" style="color: #111111;" onclick="hide();show(1);color(1)">Home</button>
+		<button class="button" id="side2" onclick="hide();show(2);color(2)">News</button>
+		<button class="button" id="side3" onclick="hide();show(3);color(3)">Awards</button>
+		<button class="button" id="side4" onclick="hide();show(4);color(4)">Publication</button>
+		<button class="button" id="side5" onclick="hide();show(5);color(5)">Other Works</button>
+		<!-- <button class="button" id="side6" onclick="hide();show(6);color(6)">Internship</button> -->
 	</div>
-	
+
 	<div id="main" style="position: relative; padding-left: 180px;">
 		<div style="width: 60%; float: left; margin-right: 10px; position: relative; font-family: 'times new roman';">
 			<div id="step1">
 				<h1 style=" font-size: 45px;">Yangruirui (Ron) Zhou, Ph.D.</h1>
 				<div id="person_intro" style="font-size: 25px;">
-					<p style="font-size: 25px;"> Ph.D. Advisor: <a href="https://www.bu.edu/eng/profile/douglas-densmore/" style="font-size: 25px; color: #027095">Douglas Densmore</a></p>
-					<p style="font-size: 25px;"> Ph.D. Committee Members: 
-					<a href="https://www.bu.edu/eng/profile/ayse-coskun/" style="font-size: 25px; color: #027095">Ayse Coskun, </a>
-					<a href="https://www.bu.edu/eng/profile/wenchao-li-ph-d/" style="font-size: 25px; color: #027095">Wenchao Li, </a>
-					<a href="https://www.bu.edu/eng/profile/catherine-m-klapperich-ph-d/" style="font-size: 25px; color: #027095">Catherine Klapperich</a></p>
+					<p style="font-size: 25px;"> Ph.D. Advisor: <a
+							href="https://www.bu.edu/eng/profile/douglas-densmore/"
+							style="font-size: 25px; color: #027095">Douglas Densmore</a></p>
+					<p style="font-size: 25px;"> Ph.D. Committee Members:
+						<a href="https://www.bu.edu/eng/profile/ayse-coskun/"
+							style="font-size: 25px; color: #027095">Ayse Coskun, </a>
+						<a href="https://www.bu.edu/eng/profile/wenchao-li-ph-d/"
+							style="font-size: 25px; color: #027095">Wenchao Li, </a>
+						<a href="https://www.bu.edu/eng/profile/catherine-m-klapperich-ph-d/"
+							style="font-size: 25px; color: #027095">Catherine Klapperich</a>
+					</p>
 				</div>
 				<p style="font-size: 20px; line-height: 1.5;">
-					Yangruirui (Ron) Zhou received his Ph.D. in <a href="https://www.bu.edu/eng/departments/ece/" style="font-size: 20px; text-decoration: none; color: #027095">Computer Engineering</a> 
-					from <a href="https://www.bu.edu/" style="font-size: 20px; color: #027095; text-decoration: none">Boston University (BU)</a> in 2025. 
-					He received his Bachelor of Engineering (B.E.) in Software Engineering (Elite Program) from the University of 
-					Electronic Science and Technology of China (UESTC) in 2020. 
-					He was honored with the Most Outstanding Student of UESTC <a href="https://baike.baidu.com/item/%E6%88%90%E7%94%B5%E6%9D%B0%E5%87%BA%E5%AD%A6%E7%94%9F/2717449" style="font-size: 20px; color: #027095; text-decoration: none">(成电杰出学生)</a> in 2019, the highest undergraduate honor awarded by UESTC.
-					
+					Yangruirui (Ron) Zhou received his Ph.D. in <a href="https://www.bu.edu/eng/departments/ece/"
+						style="font-size: 20px; text-decoration: none; color: #027095">Computer Engineering</a>
+					from <a href="https://www.bu.edu/"
+						style="font-size: 20px; color: #027095; text-decoration: none">Boston University (BU)</a> in
+					2025.
+					He received his Bachelor of Engineering (B.E.) in Software Engineering (Elite Program) from the
+					University of
+					Electronic Science and Technology of China (UESTC) in 2020.
+					He was honored with the Most Outstanding Student of UESTC <a
+						href="https://baike.baidu.com/item/%E6%88%90%E7%94%B5%E6%9D%B0%E5%87%BA%E5%AD%A6%E7%94%9F/2717449"
+						style="font-size: 20px; color: #027095; text-decoration: none">(成电杰出学生)</a> in 2019, the highest
+					undergraduate honor awarded by UESTC.
+
 				</p>
 				<p style="font-size: 20px; line-height: 1.5;">
-					At Boston University, Yangruirui worked with Professor Douglas Densmore. His research focuses on the development of tools for the
-					verification, simulation, control, synthesis, and testing of synthetic biological systems. 
-					His Ph.D. research emphasized the computational formalization and foundational infrastructure required for future AI-assisted 
-					co-design of biological networks and microfluidic systems, as well as self-driving laboratory platforms. 
-					This work contributed to the emerging research direction of Hardware-Software-Wetware Co-design, as articulated by his advisor, Prof. Densmore.
-					His long-term goal is to establish the first end-to-end automated design-validation-implementation toolchain for scalable multicellular biological 
+					At Boston University, Yangruirui worked with Professor Douglas Densmore. His research focuses on the
+					development of tools for the
+					verification, simulation, control, synthesis, and testing of synthetic biological systems.
+					His Ph.D. research emphasized the computational formalization and foundational infrastructure
+					required for future AI-assisted
+					co-design of biological networks and microfluidic systems, as well as self-driving laboratory
+					platforms.
+					This work contributed to the emerging research direction of Hardware-Software-Wetware Co-design, as
+					articulated by his advisor, Prof. Densmore.
+					His long-term goal is to establish the first end-to-end automated design-validation-implementation
+					toolchain for scalable multicellular biological
 					computation and microfluidic systems, enabling future LLM-driven bio-hardware co-design platforms.
 				</p>
-				<p> <a href="mailto:yrrzhou@bu.edu" style="font-size: 20px; color: #027095; text-decoration: none">[Email]</a>
-					<a href="https://scholar.google.com/citations?user=Zel-iSQAAAAJ&hl=en" style="font-size: 20px; color: #027095; text-decoration: none">[Google Scholar]</a>
-					<a href="https://github.com/zyrrron" style="font-size: 20px; color: #027095; text-decoration: none">[Github]</a>
+				<p> <a href="mailto:yrrzhou@bu.edu"
+						style="font-size: 20px; color: #027095; text-decoration: none">[Email]</a>
+					<a href="https://scholar.google.com/citations?user=Zel-iSQAAAAJ&hl=en"
+						style="font-size: 20px; color: #027095; text-decoration: none">[Google Scholar]</a>
+					<a href="https://github.com/zyrrron"
+						style="font-size: 20px; color: #027095; text-decoration: none">[Github]</a>
 					<a href="CV-v15-BU_zyrr.pdf" style="font-size: 20px; color: #027095; text-decoration: none">[CV]</a>
-					<a href="CV_cn_zyrr_202603.pdf" style="font-size: 20px; color: #027095; text-decoration: none">[中文简历]</a>
+					<a href="resume_zyrr_v2.pdf" style="font-size: 20px; color: #027095; text-decoration: none">[Resume
+						(Industry)]</a>
+					<a href="CV_cn_zyrr_202603.pdf"
+						style="font-size: 20px; color: #027095; text-decoration: none">[中文简历]</a>
 				</p>
 				<p style="font-size: 20px; line-height: 1.5;">
 					Mailing address:<br>
@@ -66,37 +92,51 @@
 				<div class="news-1" tabindex="-1">
 					<div>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>News</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[12/2025] Yangruirui Zhou has successfully passed his Ph.D. defense on December 11th. <br>
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[12/2025] Yangruirui Zhou has successfully passed his Ph.D. defense on December
+										11th. <br>
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[07/2023] Yangruirui Zhou has passed prospectus defense on July 27th. Now hw is a PhD candidate. <br>
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[07/2023] Yangruirui Zhou has passed prospectus defense on July 27th. Now hw is
+										a PhD candidate. <br>
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[08/2021] Yangruirui Zhou has passed RPC on August 26th, a necessary step in his progression as a PhD candidate. <br>
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[08/2021] Yangruirui Zhou has passed RPC on August 26th, a necessary step in his
+										progression as a PhD candidate. <br>
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
@@ -109,107 +149,145 @@
 				<div class="award-1">
 					<div>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>Awards</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[11/2024] International Genetically Engineered Machine competition (iGEM) Awarded "Gold Medal" (Student Mentor) 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[11/2024] International Genetically Engineered Machine competition (iGEM)
+										Awarded "Gold Medal" (Student Mentor)
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Paris, France]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[12/2019] Most Outstanding studnets of UESTC 2019 (成电杰出学生) (10/5000 in UESTC, 1/740 in Software Engineering department)
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[12/2019] Most Outstanding studnets of UESTC 2019 (成电杰出学生) (10/5000 in UESTC,
+										1/740 in Software Engineering department)
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[11/2019] International Genetically Engineered Machine competition (iGEM) Awarded "Gold Medal" and "Best Software Project"
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[11/2019] International Genetically Engineered Machine competition (iGEM)
+										Awarded "Gold Medal" and "Best Software Project"
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
 										[10/2019] Outstanding Graduates Award of UESTC
-										</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									</span>
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[09/2019] Wu Liang Ye Enterprise Scholarship, (2/740 in Software Engineering department)
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[09/2019] Wu Liang Ye Enterprise Scholarship, (2/740 in Software Engineering
+										department)
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[09/2019] Outstanding Student Scholarship 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[09/2019] Outstanding Student Scholarship
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[09/2018] Outstanding Student Scholarship 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[09/2018] Outstanding Student Scholarship
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[08/2018] Minor Contributor in the "Internet +" Innovation and Entrepreneurship Competition for College Students, Provincial Gold Award 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[08/2018] Minor Contributor in the "Internet +" Innovation and Entrepreneurship
+										Competition for College Students, Provincial Gold Award
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[09/2017] Outstanding Student Scholarship 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[09/2017] Outstanding Student Scholarship
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[10/2016] International Software Testing Qualifications Board (Certified Tester) [Foundational Level]  
-										</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[10/2016] International Software Testing Qualifications Board (Certified Tester)
+										[Foundational Level]
+									</span>
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
@@ -222,38 +300,52 @@
 				<div class="news" tabindex="-1">
 					<div>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>News</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
-							
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[12/2025] Yangruirui Zhou has successfully passed his Ph.D. defense on December 11th. 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[12/2025] Yangruirui Zhou has successfully passed his Ph.D. defense on December
+										11th.
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[7/2023] Yangruirui Zhou has passed prospectus defense on July 27th. Now hw is a PhD candidate. 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[7/2023] Yangruirui Zhou has passed prospectus defense on July 27th. Now hw is a
+										PhD candidate.
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[8/2021] Yangruirui Zhou has passed RPC on August 26th, a necessary step in his progression as a PhD candidate. 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[8/2021] Yangruirui Zhou has passed RPC on August 26th, a necessary step in his
+										progression as a PhD candidate.
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
@@ -266,107 +358,145 @@
 				<div class="award">
 					<div>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>Awards</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[11/2024] International Genetically Engineered Machine competition (iGEM) Awarded "Gold Medal" (Student Mentor) 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[11/2024] International Genetically Engineered Machine competition (iGEM)
+										Awarded "Gold Medal" (Student Mentor)
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Paris, France]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[12/2019] Most Outstanding Studnets of UESTC 2019 (成电杰出学生) (10/5000 in UESTC, 1/740 in Software Engineering department)
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[12/2019] Most Outstanding Studnets of UESTC 2019 (成电杰出学生) (10/5000 in UESTC,
+										1/740 in Software Engineering department)
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[11/2019] International Genetically Engineered Machine competition (iGEM) Awarded "Gold Medal" and "Best Software Project" 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[11/2019] International Genetically Engineered Machine competition (iGEM)
+										Awarded "Gold Medal" and "Best Software Project"
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
 										[10/2019] Outstanding Graduates Award of UESTC
-										</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									</span>
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[09/2019] Wu Liang Ye Enterprise Scholarship (2/740 in Software Engineering department) 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[09/2019] Wu Liang Ye Enterprise Scholarship (2/740 in Software Engineering
+										department)
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[09/2019] Outstanding Student Scholarship 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[09/2019] Outstanding Student Scholarship
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[09/2018] Outstanding Student Scholarship 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[09/2018] Outstanding Student Scholarship
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[08/2018] Minor Contributor in the "Internet +" Innovation and Entrepreneurship Competition for College Students, Provincial Gold Award 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[08/2018] Minor Contributor in the "Internet +" Innovation and Entrepreneurship
+										Competition for College Students, Provincial Gold Award
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[09/2017] Outstanding Student Scholarship 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[09/2017] Outstanding Student Scholarship
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[10/2016] International Software Testing Qualifications Board (Certified Tester) [Foundational Level]  
-										</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[10/2016] International Software Testing Qualifications Board (Certified Tester)
+										[Foundational Level]
+									</span>
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Chengdu, China]</strong>
 									</span>
 								</p>
@@ -379,54 +509,76 @@
 				<div class="publication" tabindex="-1">
 					<div>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>Journals</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<a href="https://www.nature.com/articles/s41589-024-01730-1" style="text-decoration: none;">
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-											[2024, Nature Chemical Biology] Partitioning of a 2-bit hash function across 66 communicating cells, 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<a href="https://www.nature.com/articles/s41589-024-01730-1"
+										style="text-decoration: none;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+											[2024, Nature Chemical Biology] Partitioning of a 2-bit hash function across
+											66 communicating cells,
 										</span>
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 											<strong>[MIT, Boston University][MA, USA]</strong>
 										</span>
 									</a>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<a href="https://ieeexplore.ieee.org/abstract/document/10614401" style="text-decoration: none;">
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-											[2024, IEEE-TCAD] Vespa: Logic-Level Constraint-Based Validation for Continuous-Flow Microfluidic Devices, 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<a href="https://ieeexplore.ieee.org/abstract/document/10614401"
+										style="text-decoration: none;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+											[2024, IEEE-TCAD] Vespa: Logic-Level Constraint-Based Validation for
+											Continuous-Flow Microfluidic Devices,
 										</span>
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 											<strong>[Boston University][MA, USA]</strong>
 										</span>
 									</a>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<a href="https://ieeexplore.ieee.org/abstract/document/11018388" style="text-decoration: none;">
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-											[2025, IEEE-TCBB] Constraint-based Sub-graph Partitioning for Multi-cellular Biological Networks, 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<a href="https://ieeexplore.ieee.org/abstract/document/11018388"
+										style="text-decoration: none;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+											[2025, IEEE-TCBB] Constraint-based Sub-graph Partitioning for Multi-cellular
+											Biological Networks,
 										</span>
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 											<strong>[Boston University, MIT][MA, USA]</strong>
 										</span>
 									</a>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<a href="https://ieeexplore.ieee.org/abstract/document/11018388" style="text-decoration: none;">
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-											[In progress, Target: Nature Computational Science] Neptune: Web-based Automated Design and Synthesis Platform for Microfluidic Devices, 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<a href="https://ieeexplore.ieee.org/abstract/document/11018388"
+										style="text-decoration: none;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+											[In progress, Target: Nature Computational Science] Neptune: Web-based
+											Automated Design and Synthesis Platform for Microfluidic Devices,
 										</span>
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 											<strong>[Boston University, CUHK][MA, USA; Hong Kong, China]</strong>
 										</span>
 									</a>
@@ -435,30 +587,42 @@
 						</ul>
 						<br>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>Conference / Workshop</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<a href="https://github.com/zyrrron/Conference-paper/blob/main/IWBDA-22_paper_9757.pdf" style="text-decoration: none;">
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-											[2022, IWBDA'22] A Conceptual Interactive Microfluidic Design and Control Workflow, 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<a href="https://github.com/zyrrron/Conference-paper/blob/main/IWBDA-22_paper_9757.pdf"
+										style="text-decoration: none;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+											[2022, IWBDA'22] A Conceptual Interactive Microfluidic Design and Control
+											Workflow,
 										</span>
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 											<strong>[Boston University][MA, USA]</strong>
 										</span>
 									</a>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<a href="https://github.com/zyrrron/Conference-paper/blob/main/LaNVis_iwbda2025_v5.pdf" style="text-decoration: none;">
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-											[2025, IWBDA'25] LaNVis: Biological Constraint-based Large Network Visualizer, 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<a href="https://github.com/zyrrron/Conference-paper/blob/main/LaNVis_iwbda2025_v5.pdf"
+										style="text-decoration: none;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+											[2025, IWBDA'25] LaNVis: Biological Constraint-based Large Network
+											Visualizer,
 										</span>
-										<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+										<span
+											style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 											<strong>[Boston University, MIT][MA, USA]</strong>
 										</span>
 									</a>
@@ -472,27 +636,37 @@
 				<div class="teaching" tabindex="-1">
 					<div>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>Teaching Assistant</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[01/2022-05/2022] Teaching Assistant of EC504 (Advanced Data Structures and Algorithms, given by Prof David Castanon), 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[01/2022-05/2022] Teaching Assistant of EC504 (Advanced Data Structures and
+										Algorithms, given by Prof David Castanon),
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[01/2023-05/2023] Teaching Assistant of EC504 (Advanced Data Structures and Algorithms, given by Prof Richard Brower), 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[01/2023-05/2023] Teaching Assistant of EC504 (Advanced Data Structures and
+										Algorithms, given by Prof Richard Brower),
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
@@ -504,27 +678,35 @@
 				<div class="internship" tabindex="-1">
 					<div>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>Internship</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[06/2019-08/2019] Summer Research Internship, 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[06/2019-08/2019] Summer Research Internship,
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[University of California, Santa Babara, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[07/2017-08/2017] Visiting Student, 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[07/2017-08/2017] Visiting Student,
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[National University of Singapore, Singapore]</strong>
 									</span>
 								</p>
@@ -536,48 +718,65 @@
 				<div class="service" tabindex="-1">
 					<div>
 						<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.4;">
-							<span class=" jgG6ef" style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
+							<span class=" jgG6ef"
+								style="font-family: 'Trebuchet MS'; font-variant: normal; vertical-align: baseline;">
 								<strong>Professional services</strong>
 							</span>
 						</p>
-						<ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+						<ul class="n8H08c UVNKR"
+							style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[04/2025] EBRC Mentorship for Undergraduate and Masters Students Program (EMUMS), </a> 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[04/2025] EBRC Mentorship for Undergraduate and Masters Students Program
+										(EMUMS), </a>
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[01/2025] Journal reviewer: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE-TCAD), </a> 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[01/2025] Journal reviewer: IEEE Transactions on Computer-Aided Design of
+										Integrated Circuits and Systems (IEEE-TCAD), </a>
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[03/2025] Journal reviewer: eLife, </a> 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[03/2025] Journal reviewer: eLife, </a>
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
 							</li>
 							<li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
-								<p dir="ltr" class="CDt4Ke zfr3Q" style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
-										[06/2022] Second Paper Reviewer of <a href="https://iccad.com/" style="font-size: 20px; color: #027095; text-decoration: none">
-											ICCAD 2022, </a> 
+								<p dir="ltr" class="CDt4Ke zfr3Q"
+									style="line-height: 0.8; margin-left: 0; margin-block: 5px; padding-left: 0; text-indent: 0;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; font-weight: normal; vertical-align: baseline;">
+										[06/2022] Second Paper Reviewer of <a href="https://iccad.com/"
+											style="font-size: 20px; color: #027095; text-decoration: none">
+											ICCAD 2022, </a>
 									</span>
-									<span style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
+									<span
+										style="font-family: 'Trebuchet MS'; font-size: 14pt; font-variant: normal; vertical-align: baseline;">
 										<strong>[Boston University, USA]</strong>
 									</span>
 								</p>
@@ -596,7 +795,7 @@
 		</div>
 	</div>
 
-	
-</body>
-</html>
 
+</body>
+
+</html>
