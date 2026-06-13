@@ -25,6 +25,7 @@ function show(i){
 	hide();
 	var content=document.getElementById("fig"+step);
 	content.id = "fig"+i;
+	content.src = "image/"+i+".jpg";
 	
 }
 
