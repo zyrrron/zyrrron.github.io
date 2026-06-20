@@ -23,10 +23,6 @@ function hide(){
 function show(i){
 	step = i;
 	hide();
-	var content=document.getElementById("fig"+step);
-	content.id = "fig"+i;
-	content.src = "image/"+i+".jpg";
-	
 }
 
 
